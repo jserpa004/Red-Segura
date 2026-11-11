@@ -118,23 +118,5 @@ No se usa ninguna biblioteca que implemente AVL, BFS, DFS o Dijkstra; solo `java
 **vértice inexistente**, **grafo desconectado** y **pesos inválidos**, las cuatro rotaciones, eliminación con
 rebalanceo, una prueba aleatoria del invariante AVL y el resultado de control de 24 minutos.
 
-## Repositorio GitHub
 
-```bash
-git init
-git add pom.xml .gitignore README.md
-git commit -m "chore: proyecto Maven y README"
-git add src/main/java/co/edu/redsegura/model
-git commit -m "feat(model): Vertex, Edge y validaciones"
-git add src/main/java/co/edu/redsegura/tree
-git commit -m "feat(tree): ABB y AVL con rotaciones LL, RR, LR y RL"
-git add src/main/java/co/edu/redsegura/graph
-git commit -m "feat(graph): grafo mixto, representaciones, BFS, DFS y Dijkstra"
-git add src/main/java/co/edu/redsegura/core src/main/java/co/edu/redsegura/app
-git commit -m "feat: núcleo, fábrica de datos y aplicación de consola"
-git add src/test docs
-git commit -m "test: pruebas JUnit 5 y reporte de ejemplo"
-git branch -M main
-git remote add origin https://github.com/<usuario>/RedSegura.git
-git push -u origin main
 ```
